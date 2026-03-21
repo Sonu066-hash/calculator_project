@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:#f2f2f2;
+}
+
+.calculator {
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#display {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+    overflow-x: auto;
+    background-color: white;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 1.5;
+    color: red;
+    border-color: transparent;
+
+}
+
+button {
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button.operator {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+button.operator:hover {
+    background-color: darkorange;  
+}
+
+button.numbers {
+    background-color: black;
+    color: white;
+}
