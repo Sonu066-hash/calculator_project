@@ -38,7 +38,7 @@ button {
 }
 
 button.operator {
-    background-color: orange;
+    background-color: grey;
     color: white;
     cursor: pointer;
 }
