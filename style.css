@@ -26,6 +26,7 @@ body {
     border: none;
     outline: none;
     line-height: 70px;
+    caret-color: #111;
 }
 
 .buttons {
